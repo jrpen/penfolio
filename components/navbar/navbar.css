@@ -1,0 +1,17 @@
+.mycss-navbar-brand-text {
+    position: relative;
+    top: 0.6em;
+    right: 1.2em;
+}
+
+.mycss-nav-item:hover {
+    cursor: pointer;
+}
+
+.mycss-dropdown-item {
+    color: white;
+}
+
+.mycss-dropdown-item:hover {
+    color: black
+}

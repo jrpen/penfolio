@@ -6,11 +6,16 @@
     <title>Penfolio</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" type="text/css" href="./bootstrap-5.3.2-dist/css/bootstrap.min.css" />
+    <!-- Navbar CSS -->
+    <link rel="stylesheet" type="text/css" href="./components/navbar/navbar.css" />
 </head>
 <body>
-    <p>Hallo, wereld!</p>
+    <!-- Navbar -->
+    <nav><?php include './components/navbar/navbar.php'; ?></nav>
 
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Font Awesome JS -->
+    <script src="https://kit.fontawesome.com/4163f4a17f.js" crossorigin="anonymous"></script>
 </body>
 </html>
