@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <body>
-    <nav class="navbar navbar-expand-lg sticky-top bg-dark">
+    <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <!-- Navbar brand -->
             <div class="d-flex align-items-center text-center">
