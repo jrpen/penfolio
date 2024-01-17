@@ -9,13 +9,13 @@
     <!-- Navbar CSS -->
     <link rel="stylesheet" type="text/css" href="./components/navbar/navbar.css" />
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="./components/main/main.css" />
+    <link rel="stylesheet" type="text/css" href="./contents/main/main.css" />
 </head>
 <body>
     <!-- Navbar -->
     <nav><?php include './components/navbar/navbar.php'; ?></nav>
     <!-- Main -->
-    <main><?php include './components/main/main.php'; ?></main>
+    <main><?php include './contents/main/main.php'; ?></main>
 
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
