@@ -10,16 +10,24 @@
     <link rel="stylesheet" type="text/css" href="./components/navbar/navbar.css" />
     <!-- Main CSS -->
     <link rel="stylesheet" type="text/css" href="./contents/main/main.css" />
+    <!-- Over mij CSS -->
+    <link rel="stylesheet" type="text/css" href="./contents/over-mij/over-mij.css" />
 </head>
 <body>
     <!-- Navbar -->
     <nav><?php include './components/navbar/navbar.php'; ?></nav>
-    <!-- Main -->
-    <main><?php include './contents/main/main.php'; ?></main>
-
+    <!-- Contents -->
+    <main>
+        <!-- Main -->
+        <?php include './contents/main/main.php'; ?>
+        <!-- Over mij -->
+        <?php include './contents/over-mij/over-mij.php'; ?>
+    </main>
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome JS -->
     <script src="https://kit.fontawesome.com/4163f4a17f.js" crossorigin="anonymous"></script>
+    <!-- Navbar JS -->
+    <script type="text/javascript" src="./components/navbar/navbar.js"></script>
 </body>
 </html>

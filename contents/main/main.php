@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="nl">
 <body>
-    <main class="container-fluid">
+    <main class="container-fluid" id="main">
         <div class="row mycss-gridRow">
             <div class="col-11 column">
                 <div class="col-12 mycss-title">

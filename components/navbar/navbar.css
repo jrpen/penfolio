@@ -1,3 +1,9 @@
+nav {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
 .mycss-navbar-brand-text {
     position: relative;
     top: 0.6em;

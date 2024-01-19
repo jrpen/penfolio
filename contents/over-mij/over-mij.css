@@ -1,0 +1,40 @@
+.mycss-container {
+    margin-top: 6em;
+    padding-top: 5em;
+}
+
+.mycss-card-col {
+    display: flex;
+    justify-content: center;
+    animation-name: cardUpAndDown;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes cardUpAndDown {
+    0% {
+        margin-top: 0em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+
+    50% {
+        margin-top: 0.5em;
+        padding-bottom: 0.75em;
+        padding-top: 0.75em;
+    }
+
+    100% {
+        margin-top: 0em;
+        padding-bottom: 1em;
+        padding-top: 1em;
+    }
+}
+
+.mycss-card {
+    background-color: #2a2b2f;
+    color: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+    border-radius: 1em;
+    width: 18rem;
+}

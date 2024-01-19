@@ -4,10 +4,10 @@
     <nav class="navbar navbar-expand-lg bg-dark">
         <div class="container-fluid">
             <!-- Navbar brand -->
-            <div class="d-flex align-items-center text-center">
-                <img class="navbar-brand" src="../../docs/brand/penfolio-logo_transparent.png" width="60em" />
+            <a href="#main" class="d-flex align-items-center text-center text-decoration-none">
+                <img class="navbar-brand" src="../../docs/brand/penfolio-logo_transparent.png" alt="logo" width="60em" />
                 <p class="navbar-brand text-white mycss-navbar-brand-text">enfolio</p>
-            </div>
+            </a>
             <!-- Navbar toggler -->
             <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -18,7 +18,7 @@
                     <!-- Nav item: Over mij -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
                         <i class="fa-solid fa-info fa-lg"></i>
-                        <p class="mt-3 ms-2">Over mij</p>
+                        <a href="#over-mij" class="ms-2 text-decoration-none text-white">Over mij</a>
                     </li>
                     <!-- Nav item: Vaardigheden -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
