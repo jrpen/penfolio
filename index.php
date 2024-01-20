@@ -9,19 +9,23 @@
     <!-- Navbar CSS -->
     <link rel="stylesheet" type="text/css" href="./components/navbar/navbar.css" />
     <!-- Main CSS -->
-    <link rel="stylesheet" type="text/css" href="./contents/main/main.css" />
+    <link rel="stylesheet" type="text/css" href="./sections/main/main.css" />
     <!-- Over mij CSS -->
-    <link rel="stylesheet" type="text/css" href="./contents/over-mij/over-mij.css" />
+    <link rel="stylesheet" type="text/css" href="./sections/over-mij/over-mij.css" />
+    <!-- Vaardigheden CSS -->
+    <link rel="stylesheet" type="text/css" href="./sections/vaardigheden/vaardigheden.css" />
 </head>
 <body>
     <!-- Navbar -->
     <nav><?php include './components/navbar/navbar.php'; ?></nav>
-    <!-- Contents -->
+    <!-- Sections -->
     <main>
         <!-- Main -->
-        <?php include './contents/main/main.php'; ?>
+        <?php include './sections/main/main.php'; ?>
         <!-- Over mij -->
-        <?php include './contents/over-mij/over-mij.php'; ?>
+        <?php include './sections/over-mij/over-mij.php'; ?>
+        <!-- Vaardigheden -->
+        <?php include './sections/vaardigheden/vaardigheden.php'; ?>
     </main>
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>

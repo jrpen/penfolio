@@ -23,7 +23,7 @@
                     <!-- Nav item: Vaardigheden -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
                         <i class="fa-solid fa-code fa-lg"></i>
-                        <p class="mt-3 ms-2">Vaardigheden</p>
+                        <a href="#vaardigheden" class="ms-2 text-decoration-none text-white">Vaardigheden</a>
                     </li>
                     <!-- Nav item: Projecten -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
