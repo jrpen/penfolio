@@ -1,0 +1,130 @@
+html {
+  background-color: #7f1431;
+}
+
+.wk_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin: auto;
+}
+
+.logo img {
+  display: block;
+  max-width: 500px;
+  margin: auto;
+}
+
+.flags {
+  display: flex;
+}
+
+.flags_left_8 {
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.flags_left_1_4 {
+  margin-left: 150px;
+}
+
+.nl {
+  margin-top: 51px;
+}
+
+.ar {
+  margin-top: 149px;
+}
+
+.hr {
+  margin-top: 150px;
+}
+
+.br {
+  margin-top: 151px;
+}
+
+.flags_left_1_2 {
+  margin-left: 150px;
+}
+
+.ar2 {
+  margin-top: 138px;
+}
+
+.hr2 {
+  margin-top: 361px;
+}
+
+.flags_left_1 {
+  margin-left: 150px;
+}
+
+.flags_winnaar {
+  margin-top: 190px;
+  text-align: center;
+  color: white;
+}
+
+.ar3 {
+  margin-top: 335px;
+}
+
+.flags_right_8 {
+  display: flex;
+  margin-bottom: 100px;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.flags_right_1_4 {
+  margin-right: 128px;
+}
+
+.en {
+  margin-top: 51px;
+}
+
+.fr {
+  margin-top: 149px;
+}
+
+.ma {
+  margin-top: 150px;
+}
+
+.pt {
+  margin-top: 151px;
+}
+
+.flags_right_1_2 {
+  margin-right: 150px;
+}
+
+.fr2 {
+  margin-top: 138px;
+}
+
+.ma2 {
+  margin-top: 361px;
+}
+
+.flags_right_1 {
+  margin-right: 150px;
+}
+
+.fr3 {
+  margin-top: 335px;
+}
+
+.ar4 {
+  margin-top: 138px;
+  margin-right: 150px;
+}

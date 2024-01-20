@@ -14,6 +14,8 @@
     <link rel="stylesheet" type="text/css" href="./sections/over-mij/over-mij.css" />
     <!-- Vaardigheden CSS -->
     <link rel="stylesheet" type="text/css" href="./sections/vaardigheden/vaardigheden.css" />
+    <!-- Projecten CSS -->
+    <link rel="stylesheet" type="text/css" href="./sections/projecten/projecten.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -26,7 +28,10 @@
         <?php include './sections/over-mij/over-mij.php'; ?>
         <!-- Vaardigheden -->
         <?php include './sections/vaardigheden/vaardigheden.php'; ?>
+        <!-- Projecten -->
+        <?php include './sections/projecten/projecten.php'; ?>
     </main>
+    
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>
     <!-- Font Awesome JS -->

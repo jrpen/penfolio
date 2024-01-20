@@ -1,0 +1,51 @@
+body {
+    background-color: darkred;
+}
+
+* {
+    color: rgb(185, 193, 199);
+    font-family: Verdana, sans-serif;
+}
+
+.title {
+    text-align: center;
+    font-size: 3vw;
+}
+
+.page {
+    border-radius: 2%;
+    max-width: 30%;
+    margin-top: 10%;
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+
+.speelschema {
+    background-color: rgb(10, 10, 196);
+    margin-right: 10%;
+}
+
+.spelers {
+    background-color: purple;
+}
+
+.standen {
+    background-color: rgb(1, 179, 179);
+    margin-right: 10%;
+}
+
+.wk_winnaars {
+    background-color: orangered;
+}
+
+.stadions {
+    text-align: center;
+    background-color: goldenrod;
+    margin-left: 35%;
+	margin-bottom: 5%;
+}
+
+.all_pages {
+    display: flex;
+    flex-wrap: wrap;
+}

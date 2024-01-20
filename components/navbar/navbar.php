@@ -28,7 +28,7 @@
                     <!-- Nav item: Projecten -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
                         <i class="fa-solid fa-folder-open fa-lg"></i>
-                        <p class="mt-3 ms-2">Projecten</p>
+                        <a href="#projecten" class="ms-2 text-decoration-none text-white">Projecten</a>
                     </li>
                     <!-- Nav item: Contact -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
