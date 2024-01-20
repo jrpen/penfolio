@@ -1,0 +1,14 @@
+.mycss-container-contact {
+    padding-top: 6em;
+}
+
+.mycss-contact-card {
+    background-color: #2a2b2f;
+    color: white;
+    box-shadow: 0 15px 35px rgba(0,0,0,.3);
+    border-radius: 1.5em;
+}
+
+.mycss-contact-vraag {
+    color: #B0926A;
+}

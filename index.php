@@ -16,6 +16,8 @@
     <link rel="stylesheet" type="text/css" href="./sections/vaardigheden/vaardigheden.css" />
     <!-- Projecten CSS -->
     <link rel="stylesheet" type="text/css" href="./sections/projecten/projecten.css" />
+    <!-- Contact CSS -->
+    <link rel="stylesheet" type="text/css" href="./sections/contact/contact.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -30,6 +32,8 @@
         <?php include './sections/vaardigheden/vaardigheden.php'; ?>
         <!-- Projecten -->
         <?php include './sections/projecten/projecten.php'; ?>
+        <!-- Contact -->
+        <?php include './sections/contact/contact.php'; ?>
     </main>
     
     <!-- Bootstrap JS -->

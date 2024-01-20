@@ -33,7 +33,7 @@
                     <!-- Nav item: Contact -->
                     <li class="nav-item text-white d-flex align-items-center text-center mycss-nav-item">
                         <i class="fa-solid fa-pen-to-square fa-lg"></i>
-                        <p class="mt-3 ms-2">Contact</p>
+                        <a href="#contact" class="ms-2 text-decoration-none text-white">Contact</a>
                     </li>
                     <!-- Nav item: Account -->
                     <li class="nav-item dropdown mycss-nav-item">
