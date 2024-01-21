@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="./sections/projecten/projecten.css" />
     <!-- Contact CSS -->
     <link rel="stylesheet" type="text/css" href="./sections/contact/contact.css" />
+    <!-- Footer CSS -->
+    <link rel="stylesheet" type="text/css" href="./components/footer/footer.css" />
 </head>
 <body>
     <!-- Navbar -->
@@ -35,6 +37,8 @@
         <!-- Contact -->
         <?php include './sections/contact/contact.php'; ?>
     </main>
+    <!-- Footer -->
+    <footer><?php include './components/footer/footer.php' ?></footer>
     
     <!-- Bootstrap JS -->
     <script type="text/javascript" src="../bootstrap-5.3.2-dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,19 @@
+@media only screen and (max-width: 1000px) {
+    .mycss-footer-links {
+        display: flex;
+        justify-content: center;
+        margin-left: -5em;
+    }
+}
+
+.mycss-footer-container {
+    padding-left: 10em;
+    padding-top: 4em;
+    margin-top: 5em;
+    padding-bottom: 2em;
+    border-top: 4px dotted #B0926A;
+}
+
+.mycss-footer-logo {
+    margin-top: -1.3em;
+}
