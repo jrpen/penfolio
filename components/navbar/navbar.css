@@ -21,3 +21,15 @@ nav {
 .mycss-dropdown-item:hover {
     color: black
 }
+
+.mycss-uitloggen {
+    background-color: #212529;
+    border: none;
+    color: red;
+}
+
+.mycss-uitloggen-parent:hover {
+    .mycss-uitloggen {
+        background: white;
+    }
+}

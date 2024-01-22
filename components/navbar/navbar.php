@@ -37,27 +37,43 @@
                     </li>
                     <!-- Nav item: Account -->
                     <li class="nav-item dropdown mycss-nav-item">
-                        <a class="nav-link dropdown-toggle text-white d-flex align-items-center text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        <i class="fa-regular fa-circle-user fa-lg"></i>
-                        <p class="mt-3 ms-2">Account</p>
-                        </a>
-                        <ul class="dropdown-menu bg-dark">
-                            <li>
-                                <a class="dropdown-item mycss-dropdown-item" href="#">
-                                    <i class="fa-solid fa-gear fa-lg"></i>
-                                    Settings
+                        <?php 
+                            if(isset($_SESSION["gebruiker"])) {
+                                echo '
+                                <a class="nav-link dropdown-toggle text-white d-flex align-items-center text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="fa-regular fa-circle-user fa-lg"></i>
+                                    <p class="mt-3 ms-2">Account</p>
                                 </a>
-                            </li>
-                            <li>
-                                <hr class="dropdown-divider bg-light">
-                            </li>
-                            <li>
-                                <a class="dropdown-item text-danger" href="#">
-                                    <i class="fa-solid fa-arrow-right-to-bracket fa-lg"></i>
-                                    Uitloggen
-                                </a>
-                            </li>
-                        </ul>
+                                <ul class="dropdown-menu bg-dark">
+                                    <li>
+                                        <a class="dropdown-item mycss-dropdown-item" role="button" data-bs-toggle="modal" data-bs-target="#settings">
+                                            <i class="fa-solid fa-gear fa-lg"></i>
+                                            Settings
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <hr class="dropdown-divider bg-light">
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-danger mycss-uitloggen-parent">
+                                            <form method="post">
+                                                <input type="hidden" name="uitloggen">
+                                                <button type="submit" class="mycss-uitloggen">
+                                                    <i class="fa-solid fa-arrow-right-to-bracket fa-lg"></i>
+                                                    Uitloggen
+                                                </button>
+                                            </form>
+                                        </a>
+                                    </li>
+                                </ul>';
+                            } else {
+                                echo '
+                                <a class="nav-link text-white d-flex align-items-center text-center" role="button" data-bs-toggle="modal" data-bs-target="#inloggen">
+                                    <i class="fa-regular fa-circle-user fa-lg"></i>
+                                    <p class="mt-3 ms-2">inloggen</p>
+                                </a>';
+                            }
+                        ?>
                     </li>
                 </ul>
             </div>
